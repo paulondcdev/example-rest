@@ -4,8 +4,8 @@ This example makes actions available through [Oca.restful](https://node-oca.gith
 
 Running example:
 ```
-git clone https://github.com/node-oca/restExample.git
-cd restExample
+git clone https://github.com/node-oca/example-rest.git
+cd example-rest
 npm install
 node .
 ```

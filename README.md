@@ -1,6 +1,6 @@
 ## REST Example
 
-This example makes actions available through the RESTful support:
+This example makes actions available through [Oca.restful](https://node-oca.github.io/docs/class/src/Provider.js~Provider.html#static-method-restful)
 
 Running example:
 ```

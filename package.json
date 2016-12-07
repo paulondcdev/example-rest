@@ -1,24 +1,16 @@
 {
-  "name": "restexample",
+  "name": "example-test",
   "version": "0.0.1",
-  "description": "Oca rest example",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "files": [
     "src"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-oca/restExample.git"
+    "url": "git+https://github.com/node-oca/example-rest.git"
   },
   "author": "Paulo Nogueira <paulondc@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/node-oca/restExample/issues"
-  },
-  "homepage": "https://github.com/node-oca/restExample#readme",
   "dependencies": {
     "express": "*",
     "oca": "*"

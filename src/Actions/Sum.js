@@ -4,8 +4,8 @@ const Oca = require('oca');
 class Sum extends Oca.Action{
   constructor(){
     super();
-    this.createInput('x: Numeric');
-    this.createInput('y?: Numeric', {defaultValue: 2});
+    this.createInput('x: numeric');
+    this.createInput('y?: numeric', {defaultValue: 2});
   }
 
   _perform(){
@@ -15,5 +15,8 @@ class Sum extends Oca.Action{
     return Promise.resolve(x + y);
   }
 }
+
+Oca.registerAction(Sum);
+Oca.webfyAction(Sum, 'get', {restRoute: '/sum'})
 
 module.exports = Sum;

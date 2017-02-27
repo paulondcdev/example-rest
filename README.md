@@ -1,6 +1,6 @@
 ## REST Example
 
-This example makes actions available through [Oca.restful](https://node-oca.github.io/docs/class/src/Provider.js~Provider.html#static-method-restful)
+This example makes actions available through [Oca.restful](https://node-oca.github.io/docs/class/src/Ext/Handlers/Web.js~Web.html)
 
 Running example:
 ```
@@ -17,7 +17,7 @@ node .
 `x`, `y`
 
 **URL**
-`http://localhost:3000/Calc/Sum?x=1&y=10`
+`http://localhost:3000/sum?x=1&y=10`
 
 **Output**
 ```json
@@ -34,7 +34,7 @@ node .
 `x`, `y`
 
 **URL**
-`http://localhost:3000/Calc/Multiply?x=2&y=2`
+`http://localhost:3000/multiply?x=2&y=2`
 
 **Output**
 ```json

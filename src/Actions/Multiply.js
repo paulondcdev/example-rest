@@ -4,8 +4,8 @@ const Oca = require('oca');
 class Multiply extends Oca.Action{
   constructor(){
     super();
-    this.createInput('x: Numeric');
-    this.createInput('y: Numeric');
+    this.createInput('x: numeric');
+    this.createInput('y: numeric');
   }
 
   _perform(){
@@ -15,5 +15,8 @@ class Multiply extends Oca.Action{
     return Promise.resolve(x * y);
   }
 }
+
+Oca.registerAction(Multiply);
+Oca.webfyAction(Multiply, 'get', {restRoute: '/multiply'})
 
 module.exports = Multiply;
